@@ -31,7 +31,7 @@ driver = new ChromeDriver();
 //Launch the some site
 driver.get("http://portal.aait.edu.et");
 driver.findElement(By.name("UserName")).sendKeys("ATR/6830/09");
-driver.findElement(By.name("Password")).sendKeys("9763");
+driver.findElement(By.name("Password")).sendKeys("****");
 driver.findElement(By.className("btn-success")).click();
 driver.navigate().to("https://portal.aait.edu.et/Grade/GradeReport");
 
